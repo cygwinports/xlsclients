@@ -1,0 +1,56 @@
+<pkg>
+------------------------------------------
+Xorg
+
+Runtime requirements:
+  cygwin-1.5.19-4
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.7-1.7.9-1
+  binutils-20050610-1
+  cygport-0.1.6-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+  xorg-util-macros-1.0.1-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://xorg.freedesktop.org/releases/individual/
+
+-------------------------------------------
+
+Build instructions:
+  unpack <pkg>-<pv>-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./<pkg>-<pv>-X.cygport all
+
+This will create:
+  /usr/src/<pkg>-<pv>-X-src.tar.bz2
+  /usr/src/<pkg>-<pv>-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+
+------------------
+
+Port Notes:
+
+----- version <pv>-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
