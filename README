@@ -1,6 +1,6 @@
 <pkg>
 ------------------------------------------
-Xorg
+X.Org
 
 Runtime requirements:
   cygwin-1.5.20-1
