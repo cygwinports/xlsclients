@@ -1,0 +1,10 @@
+inherit xorg
+
+NAME="xlsclients"
+VERSION=1.1.2
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Lists clients connected to an X display"
+DESCRIPTION="Xlsclients is a utility for listing information about the client
+applications running on a display.  It may be used to generate scripts
+representing a snapshot of the user's current session."

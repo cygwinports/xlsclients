@@ -1,4 +1,0 @@
-category: X11
-requires: libxcb1
-sdesc: "X.Org display clients lister"
-ldesc: "X.Org display clients lister"
