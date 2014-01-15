@@ -1,7 +1,7 @@
 inherit xorg
 
 NAME="xlsclients"
-VERSION=1.1.2
+VERSION=1.1.3
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="Lists clients connected to an X display"
